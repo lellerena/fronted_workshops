@@ -14,6 +14,19 @@ h2: 13
 h3: 104
 ```
 
+## Instrucciones para Ejecutar
+Para ejecutar el script desde la consola, sigue estos pasos:
+
+1. Asegúrate de tener Python instalado en tu sistema.
+2. Instala las dependencias necesarias ejecutando:
+   ```bash
+   pip install requests beautifulsoup4
+   ```
+3. Ejecuta el script con el siguiente comando, reemplazando `<URL>` con la URL que deseas analizar:
+   ```bash
+   python scraper.py <URL>
+   ```
+
 ## Integrantes del Grupo
 - Integrante 1: Luis Llerena
 - Integrante 2: Jhon Jimenez
