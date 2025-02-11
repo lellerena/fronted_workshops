@@ -1,10 +1,10 @@
 # Workshop 1
 
 ## Descripción
-Este taller tiene como objetivo enseñar a los participantes cómo utilizar BeautifulSoup y requests en Python para realizar scraping de páginas web y contar las ocurrencias de cada etiqueta HTML en una página web dada.
+Este taller tiene como objetivo realizar scraping de páginas web y contar las ocurrencias de cada etiqueta HTML en una página web dada.
 
 ## Ejemplo de Ejecución
-A continuación se muestra un ejemplo de cómo ejecutar el script:
+A continuación se muestra un ejemplo de los resultados al ejecutar el script:
 
 ```python
 Enter the URL to scrape: https://www.nytimes.com/
