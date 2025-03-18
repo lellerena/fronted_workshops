@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form id="todo-form" class="form-container">
+            <input
+                type="text"
+                id="task-input"
+                placeholder="Task title"
+                class="input-field"
+            />
+            <button type="submit" class="add-button">Add Task</button>
+        </form>
+        <div class="task-container">
+            <div>
+                <h2>Pending Tasks</h2>
+                <ul id="todo-list" class="task-list"></ul>
+            </div>
+            <div>
+                <h2>Completed Tasks</h2>
+                <ul id="completed-list" class="task-list"></ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
