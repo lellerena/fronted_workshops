@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+#user-info {
+    color: white;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+#auth-form {
+    max-width: 400px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#auth-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#auth-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#auth-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#auth-form button:hover {
+    background-color: #0056b3;
+}
+
+#table-container {
+    display: none;
+    max-width: 800px;
+    min-width: 700px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    gap: 20px;
+}
+
+#table-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    grid-column: span 3;
+}
+
+#data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+#type-container {
+    display: none;
+    max-width: 800px;
+    min-width: 700px;
+    max-height: 60vh;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    gap: 20px;
+}
+
+#type-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    grid-column: span 3;
+}
+
+#type-data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+#data-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
